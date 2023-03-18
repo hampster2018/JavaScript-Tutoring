@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Hello, world!</title>
+    <!-- You can write CSS inline using the 'style' attribute or link to an external CSS document using the 'link' element -->
+    <style>
+        #color-red {
+            color: red;
+        }
+    </style>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+      </head>
+  </head>
+  <body>
+    <h1 id="color-red">Hello, world!</h1>
+    <p id="p1" class="color-green">Welcome to my first HTML document.</p>
+    <script>
+        document.getElementById("p1").innerHTML = "New text!";
+    </script>
+
+    <p id="demo"></p>
+    <script> 
+        document.getElementById("demo").innerHTML = "Date : " + Date();
+    </script>
+    
+  </body>
+</html>
