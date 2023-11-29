@@ -10,18 +10,23 @@ const var3 = "Hello Final";
 // 5 basics primitive types in Javascript
 
 let firstName = 'Yeric'; // Basic String
-let age = 30; // No difference between ints and doubles 
+let age = 10; // No difference between ints and doubles 
 let isApproved = true; // Boolean
 let random = undefined; // defined as undefined
-let selectedColor = null; // Defined as an object
+let selectedColor = null;// Defined as an object
+
+let num = 0;
+let falseBool = false;
+
+console.log(typeof(null));
 
 // 3 type of reference types
 
-// Object type 
+//// Object type 
 let person = {
-    name: firstName,
-    age: age,
 };
+
+console.log(null);
 
 // Can access using the . attribute
 console.log(person.name)
@@ -56,3 +61,14 @@ function square(number) {
 
 let squared = square(2);
 console.log(squared);
+
+if (age == 30) {
+
+}
+else if (age == 20)
+
+switch (age) {
+    case (10): console.log(10);
+                
+    case (20): console.log(20);
+}

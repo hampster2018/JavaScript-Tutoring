@@ -8,15 +8,15 @@
             color: red;
         }
     </style>
-    <head>
+      <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
       </head>
   </head>
-  <body>
+  <body id="body">
     <h1 id="color-red">Hello, world!</h1>
     <p id="p1" class="color-green">Welcome to my first HTML document.</p>
     <script>
-        document.getElementById("p1").innerHTML = "New text!";
+        document.getElementById("p1").parentElement = "New text!";
     </script>
 
     <p id="demo"></p>

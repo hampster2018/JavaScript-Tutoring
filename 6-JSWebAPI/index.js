@@ -24,7 +24,7 @@ async function sendRequest() {
       .then(response => response.json())
       .then(posts => {
         console.log("All posts:", posts);
-        document.getElementById("demo").innerHTML = posts[10].title;
+        document.getElementById("demo").innerHTML = posts[0]['title'];
       })
       .catch(error => console.error(error));
     })
